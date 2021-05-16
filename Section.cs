@@ -30,7 +30,7 @@ namespace WpfApp_lab4
 
         public override String ToString()
         {
-            return "Тип величини: " + sectionType + ";";
+            return "Гурток: " + sectionType + ";";
         }
     }
 }

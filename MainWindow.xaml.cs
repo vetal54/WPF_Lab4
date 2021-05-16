@@ -29,25 +29,26 @@ namespace WpfApp_lab4
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string a = textBox1.Text;
-            if (a != "")
-            {
-                comboBox1.Items.Add(a);
-                listBox1.Items.Add(a);
-                textBox1.Text = null;
-            }
+
+            HouseOfCreativity house = new HouseOfCreativity(11);
+            Filling FillingInformation = new Filling(listBox1.Items.Count + 1);
+           
+            listBox1.Items.Add(house);
+            
+            FillingInformation.ShowDialog();
+           
         }
 
-        private void btn3_Click(object sender, RoutedEventArgs e)
-        {
-            string b;
-            Window1 window1 = new Window1();
-            window1.ShowDialog();
-            if (HouseOfCreativity.aaa != null)
-            {
-                comboBox1.Items.Add(HouseOfCreativity.aaa);
-                listBox1.Items.Add(HouseOfCreativity.aaa);
-            }
-        }
+        //private void btn3_Click(object sender, RoutedEventArgs e)
+        //{
+        //    string b;
+        //    Filling window1 = new Filling();
+        //    window1.ShowDialog();
+        //    if (HouseOfCreativity.aaa != "")
+        //    {
+        //        //comboBox1.Items.Add(HouseOfCreativity.aaa);
+        //        listBox1.Items.Add(HouseOfCreativity.aaa);
+        //    }
+        //}
     }
 }

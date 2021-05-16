@@ -17,5 +17,15 @@ namespace WpfApp_lab4
         private int NumberOfLessons { get; set; }
 
         private int NumberOfStudents { get; set; }
+
+        public Group(string name, Section sectionType, Teacher teacher, int pay, int numberOfLessons, int numberOfStudents)
+        {
+            this.Name = name;
+            this.section = sectionType;
+            this.teacher = teacher;
+            this.pay = pay;
+            this.NumberOfLessons = numberOfLessons;
+            this.NumberOfStudents = numberOfStudents;
+        }
     }
 }
