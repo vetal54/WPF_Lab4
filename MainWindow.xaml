@@ -5,19 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp_lab4"
         mc:Ignorable="d"
-        Title="Загальна інформація" Height="468" Width="816">
+        Title="Загальна інформація" Loaded="Window_Loaded" Height="468" Width="816">
     <Grid Margin="10,10,10,-6">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="119*"/>
-            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="475*"/>
+            <ColumnDefinition Width="321*"/>
         </Grid.ColumnDefinitions>
 
 
-        <ListBox Name="listBox1" HorizontalAlignment="Left" Height="328" Margin="31,28,0,0" VerticalAlignment="Top" Width="739" Background="White" FontStyle="Normal" FontSize="22" FontWeight="UltraBold" x:FieldModifier="public" Grid.ColumnSpan="2"/>
-        <Button Content="Додати" HorizontalAlignment="Left" Margin="31,373,0,0" VerticalAlignment="Top" Height="40" Width="202" Click="Button_Click"/>
-        <Button Content="Редагувати" HorizontalAlignment="Left" Margin="300,373,0,0" VerticalAlignment="Top" Height="40" Width="202" Grid.ColumnSpan="2"/>
-        <Button Content="Видалити" HorizontalAlignment="Left" Margin="92,373,0,0" VerticalAlignment="Top" Height="40" Width="202" Grid.Column="1"/>
-        <Label Content="Загальний Список" HorizontalAlignment="Left" Margin="31,-3,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="299" Margin="31,57,0,0" VerticalAlignment="Top" Width="720" Background="White" FontStyle="Normal" FontSize="22" FontWeight="UltraBold" x:FieldModifier="public" Grid.ColumnSpan="2"/>
+        <Button Content="Додати" HorizontalAlignment="Left" Margin="31,373,0,0" VerticalAlignment="Top" Height="40" Width="140" Click="Button_Click"/>
+        <Button Content="Видалити" HorizontalAlignment="Left" Margin="470,373,0,0" VerticalAlignment="Top" Height="40" Width="134" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+        <Label Content="Загальний Список" HorizontalAlignment="Left" Margin="31,-3,0,0" VerticalAlignment="Top" Height="26" Width="110"/>
+        <Button x:Name="btn_info" Content="Повна інфа" HorizontalAlignment="Left" Margin="251,373,0,0" VerticalAlignment="Top" Height="40" Width="140" Click="btn_info_Click"/>
+        <Label Content="Загальна кількість" Grid.Column="1" HorizontalAlignment="Left" Margin="74,2,0,0" VerticalAlignment="Top" Height="26" Width="109"/>
+        <Label x:Name="label_count" Content="0" Grid.Column="1" HorizontalAlignment="Left" Margin="188,0,0,396" VerticalAlignment="Bottom" RenderTransformOrigin="-0.762,0.071" Height="29" Width="33"/>
+        <Button x:Name="btn_save" Content="save" Grid.Column="1" HorizontalAlignment="Left" Margin="170,373,0,0" VerticalAlignment="Top" Height="40" Width="106" Click="btn_save_Click"/>
 
     </Grid>
 </Window>

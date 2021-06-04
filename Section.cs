@@ -6,6 +6,7 @@ using System.Xml.Serialization;
 namespace WpfApp_lab4
 {
     [XmlType("Section")]
+    //[XmlInclude(typeof(Section)), XmlInclude(typeof(Teacher)), XmlInclude(typeof(Group)), XmlInclude(typeof(HouseOfCreativity))]
     [Serializable]
 
     public class Section

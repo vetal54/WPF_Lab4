@@ -24,9 +24,7 @@
         <Label Content="Тип гуртка" HorizontalAlignment="Left" Margin="83,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="-5.785,-1.254"/>
         <Label Content="Оплата - грн/місяць" HorizontalAlignment="Left" Margin="237,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.411,0.294"/>
         <Label Content="Інформація про Викладача" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" Height="24" Width="173"/>
-        <Label Content="Загальна кількість гуртків" HorizontalAlignment="Left" Margin="547,10,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Label1" Content="0" HorizontalAlignment="Left" Margin="603,30,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="bnt_Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="603,341,0,0" VerticalAlignment="Top" Height="38" Width="68"/>
+        <Button x:Name="bnt_Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="603,341,0,0" VerticalAlignment="Top" Height="38" Width="68" Click="bnt_Cancel_Click"/>
         <Label Content="Адрес проведення" HorizontalAlignment="Left" Margin="400,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.574,-0.268"/>
         <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="400,153,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Кількість занять

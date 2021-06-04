@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 namespace WpfApp_lab4
 {
     [XmlType("Teacher")]
- 
+    [XmlInclude(typeof(Section)), XmlInclude(typeof(Teacher)), XmlInclude(typeof(Group)), XmlInclude(typeof(HouseOfCreativity))]
     [Serializable]
 
     public class Teacher
@@ -33,17 +33,19 @@ namespace WpfApp_lab4
             LastNameCopy = lastName;
             DateOfBirthCopy = dateOfBirth;
         }
+        public Teacher() { }
+        
 
         public override String ToString()
         {
-            char[] word = DateOfBirth.ToString().ToCharArray();
+            char[] word = DateOfBirthCopy.ToString().ToCharArray();
             string date = null;
 
             for (int i = 0; i <= word.Length / 2; ++i)
             {
                 date += word[i];
             }
-            return "Ім'я: " + FirstName + ";\nПрізвище " + LastName + ";\nДата народження " + date + ";";
+            return "Ім'я: " + FirstNameCopy + "; Прізвище: " + LastNameCopy + "; Дата народження: " + date;
         }
     }
 }

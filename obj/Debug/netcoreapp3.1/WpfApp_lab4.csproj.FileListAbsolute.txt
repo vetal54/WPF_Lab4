@@ -19,3 +19,8 @@ D:\Нова папка (2)\Desktop\ООП_ЛАБИ\ООП\WpfApp_lab4\WpfApp_lab
 D:\Нова папка (2)\Desktop\ООП_ЛАБИ\ООП\WpfApp_lab4\WpfApp_lab4\obj\Debug\netcoreapp3.1\WpfApp_lab4.genruntimeconfig.cache
 D:\Нова папка (2)\Desktop\ООП_ЛАБИ\ООП\WpfApp_lab4\WpfApp_lab4\obj\Debug\netcoreapp3.1\Filling.g.cs
 D:\Нова папка (2)\Desktop\ООП_ЛАБИ\ООП\WpfApp_lab4\WpfApp_lab4\obj\Debug\netcoreapp3.1\Filling.baml
+D:\Нова папка (2)\Desktop\ООП_ЛАБИ\ООП\WpfApp_lab4\WpfApp_lab4\obj\Debug\netcoreapp3.1\FullInfo.g.cs
+D:\Нова папка (2)\Desktop\ООП_ЛАБИ\ООП\WpfApp_lab4\WpfApp_lab4\obj\Debug\netcoreapp3.1\FullInfo.baml
+D:\Нова папка (2)\Desktop\ООП_ЛАБИ\ООП\WpfApp_lab4\WpfApp_lab4\obj\Debug\netcoreapp3.1\Edit.g.cs
+D:\Нова папка (2)\Desktop\ООП_ЛАБИ\ООП\WpfApp_lab4\WpfApp_lab4\obj\Debug\netcoreapp3.1\Edit.baml
+D:\Нова папка (2)\Desktop\ООП_ЛАБИ\ООП\WpfApp_lab4\WpfApp_lab4\obj\Debug\netcoreapp3.1\WpfApp_lab4.csproj.CopyComplete
